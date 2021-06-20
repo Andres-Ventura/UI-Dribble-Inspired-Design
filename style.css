@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-background-color: #d5d7ff;
+  --second-background-color: #f3f3ff;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: var(--main-background-color);
+}
+.blurred-image {
+  position: absolute;
+}
+
+img {
+  height: 80vh;
+  width: auto;
+  filter: blur(20px);
+}
+
+.all-info-container {
+  position: relative;
+  background-color: var(--second-background-color);
+  opacity: 0.8;
+  height: 90vh;
+  width: 100%;
+}
+
+.red-btn,
+.yellow-btn,
+.green-btn {
+  padding: 3.5px 3.5px;
+  border-radius: 50%;
+  border: rgb(0, 0, 0, 0.2) 2px solid;
+  cursor: pointer;
+  margin-top: 35px;
+}
+.red-btn {
+  background-color: #ff614d;
+  margin-left: 20px;
+}
+.yellow-btn {
+  background-color: #fec333;
+}
+.green-btn {
+  background-color: #59de47;
+}
+
+.input-container {
+  padding: 15px 20px;
+  width: 50%;
+  border-radius: 10px;
+  position: absolute;
+  top: 18px;
+  left: 105px;
+  background-color: #fff;
+}
+.icon-star {
+  color: #ffa41d;
+  cursor: pointer;
+}
+.main {
+  outline: transparent;
+  margin-left: 10px;
+  border: none;
+}
+
+.main::placeholder {
+  color: #000;
+  font-size: 12px;
+}
+
+.icon-ellipsis-horizontal {
+  color: rgb(0, 0, 0, 0.5);
+  float: right;
+  cursor: pointer;
+}
+
+.side-input-container {
+  position: absolute;
+  top: 18px;
+  left: 65%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f8f9ff;
+  cursor: pointer;
+}
+
+#dribbble {
+  color: #f07eae;
+}
+
+.dribble-section {
+  margin-left: 10px;
+  border: none;
+  background-color: #f8f9ff;
+  cursor: pointer;
+  transition: 0.35s color ease-in-out;
+  font-size: 12px;
+}
+.dribble-section:hover {
+  color: #f07eae;
+}
+
+.user-container {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#book-now {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  transition: 0.35s color ease-in-out;
+}
+#book-now:hover {
+  color: #f07eae;
+}
+
+.userbtn {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.middle-text-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20%;
+}
+.middle {
+  background: -webkit-linear-gradient(#ea31cb, #9460c8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sub-text {
+  color: black;
+}
+
+.flight-info-container {
+  position: absolute;
+  background-color: #fafafe;
+  margin: 10% 10px 10px 10px;
+  border-radius: 10px;
+  padding: 20px;
+  height: 40%;
+}
+
+.flight {
+  text-decoration: none;
+  margin-right: 40px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 13px;
+}
+
+.flight:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.switch-btn-container {
+  position: absolute;
+  top: 3px;
+  right: 8%;
+  font-size: 12px;
+  display: inline;
+}
+
+.one-way {
+  margin-top: 18px;
+}
+
+.button-switcher {
+  position: absolute;
+  top: 19px;
+  right: -80%;
+  border: none;
+  border-radius: 40px;
+  height: 15px;
+  width: 60%;
+  background-color: #e9ebfa;
+}
+.outer-ball {
+  width: 12px;
+  height: 12px;
+  background-color: #fb29cc;
+  border: #fff solid;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-bottom: 0.76px;
+}
+
+.locations {
+  margin-top: 10%;
+}
+
+.location-1,
+.location-2,
+.location-3 {
+  border: none;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.leaving,
+.destination,
+.passengers {
+  position: absolute;
+  top: 43%;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+
