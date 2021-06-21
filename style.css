@@ -154,7 +154,7 @@ img {
 }
 
 .flight-info-container {
-  position: absolute;
+  position: relative;
   background-color: #fafafe;
   margin: 10% 10px 10px 10px;
   border-radius: 10px;
@@ -166,8 +166,9 @@ img {
   text-decoration: none;
   margin-right: 40px;
   color: rgba(0, 0, 0, 0.4);
-  padding: 10px;
+  padding: 0px 10px;
   font-size: 13px;
+  height: 20px;
 }
 
 .flight:hover {
@@ -220,5 +221,3 @@ img {
   border-radius: 10px;
   cursor: pointer;
 }
-
-
