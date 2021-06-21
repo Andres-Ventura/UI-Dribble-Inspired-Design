@@ -228,7 +228,8 @@ img {
   position: absolute;
   top: 43%;
   color: rgba(0, 0, 0, 0.4);
+  margin-right: 10px;
+  margin-left: 0;
 }
-
 
 
