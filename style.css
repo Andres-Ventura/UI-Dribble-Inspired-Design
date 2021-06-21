@@ -206,7 +206,9 @@ img {
 }
 
 .locations {
+  display: flex;
   margin-top: 10%;
+  flex-direction: row;
 }
 
 .location-1,
@@ -217,16 +219,6 @@ img {
   background-color: #fff;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.leaving,
-.destination,
-.passengers {
-  position: absolute;
-  top: 43%;
-  color: rgba(0, 0, 0, 0.4);
-  margin-right: 10px;
-  margin-left: 0;
 }
 
 
